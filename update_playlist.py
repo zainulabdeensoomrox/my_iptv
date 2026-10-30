@@ -4,6 +4,7 @@ import requests
 
 PORTAL_URL = "http://line.tivi-one.net:80/server/load.php"
 MAC_ADDRESS = "A0:BB:3E:75:52:64"
+USER_AGENT = "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3"
 
 # Your 7 New Zealand Sky Sport channels
 CHANNELS = {
@@ -18,7 +19,7 @@ CHANNELS = {
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+    "User-Agent": USER_AGENT,
     "Cookie": f"mac={MAC_ADDRESS}; stb_lang=en; timezone=Asia/Karachi;",
     "X-User-Agent": "Model: MAG250; Link: WiFi"
 })
@@ -56,6 +57,7 @@ def generate_m3u():
         stream_url = fetch_stream_url(ch_id)
         if stream_url:
             m3u_lines.append(f"#EXTINF:-1 tvg-id=\"{ch_id}\",{name}")
+            m3u_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
             m3u_lines.append(f"{stream_url}\n")
             print(f"[SUCCESS] {name} updated")
         else:
