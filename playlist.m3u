@@ -1,0 +1,22 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="809392",Sky Sport 1 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809392&extension=ts&play_token=FSwF6ZS65y
+
+#EXTINF:-1 tvg-id="809378",Sky Sport 2 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809378&extension=ts&play_token=ZRynQBek9v
+
+#EXTINF:-1 tvg-id="809377",Sky Sport 3 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809377&extension=ts&play_token=R9YsPCD44k
+
+#EXTINF:-1 tvg-id="809376",Sky Sport 4 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809376&extension=ts&play_token=7tl5kLDAM8
+
+#EXTINF:-1 tvg-id="809375",Sky Sport 5 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809375&extension=ts&play_token=iRtO2g5Zt4
+
+#EXTINF:-1 tvg-id="809374",Sky Sport 6 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809374&extension=ts&play_token=nH24Jz3Mar
+
+#EXTINF:-1 tvg-id="809373",Sky Sport 7 NZ
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809373&extension=ts&play_token=ffxdVWyH1T
