@@ -13,6 +13,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 DEFAULT_PORTAL = "http://line.tivi-one.net:80/server/load.php"
+DEFAULT_MAC = "A0:BB:3E:75:52:64"
 DEFAULT_UA = (
     "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 "
     "(KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3"
@@ -68,7 +69,6 @@ class StalkerClient:
         if not token:
             return False
         self.session.headers["Authorization"] = f"Bearer {token}"
-        # Many portals require a profile call before create_link works.
         try:
             self._call(type="stb", action="get_profile")
         except requests.RequestException as exc:
@@ -84,7 +84,6 @@ class StalkerClient:
             return None
 
         raw = js.get("cmd", "") if isinstance(js, dict) else ""
-        # Response looks like "ffmpeg http://host/stream?..." -> take the URL part.
         for part in raw.split():
             if part.startswith(("http://", "https://")):
                 return part.strip("\"'")
@@ -114,7 +113,7 @@ def write_atomic(path: str, text: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--portal", default=os.getenv("PORTAL_URL", DEFAULT_PORTAL))
-    ap.add_argument("--mac", default=os.getenv("STB_MAC"), help="or set STB_MAC env var")
+    ap.add_argument("--mac", default=os.getenv("STB_MAC", DEFAULT_MAC))
     ap.add_argument("--user-agent", default=DEFAULT_UA)
     ap.add_argument("--output", default="playlist.m3u")
     ap.add_argument("--workers", type=int, default=4)
@@ -153,7 +152,7 @@ def main() -> int:
             log.info("%s %s", "OK    " if results[name] else "FAILED", name)
 
     lines = ["#EXTM3U"]
-    for name, cid in CHANNELS.items():  # keep original channel order
+    for name, cid in CHANNELS.items():
         if url := results.get(name):
             lines += build_entry(name, cid, url, args.user_agent, args.header_style)
 
