@@ -1,22 +1,22 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="809392" tvg-name="Sky Sport 1 NZ",Sky Sport 1 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809392&extension=ts&play_token=BFC9Aw6Cmb|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809392&extension=ts&play_token=kizNTOYaDc|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809378" tvg-name="Sky Sport 2 NZ",Sky Sport 2 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809378&extension=ts&play_token=LZzNnzLE2s|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809378&extension=ts&play_token=zKW1FpBeNN|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809377" tvg-name="Sky Sport 3 NZ",Sky Sport 3 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809377&extension=ts&play_token=g3Sh1DvIoO|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809377&extension=ts&play_token=f01WMRq4Go|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809376" tvg-name="Sky Sport 4 NZ",Sky Sport 4 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809376&extension=ts&play_token=I3HJyAQLnt|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809376&extension=ts&play_token=iaYNVQ3fyU|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809375" tvg-name="Sky Sport 5 NZ",Sky Sport 5 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809375&extension=ts&play_token=0WGMqhymlH|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809375&extension=ts&play_token=LVmiOrPQZ0|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809374" tvg-name="Sky Sport 6 NZ",Sky Sport 6 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809374&extension=ts&play_token=lRnPSNTkXl|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809374&extension=ts&play_token=nCbjkcXsg0|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
 #EXTINF:-1 tvg-id="809373" tvg-name="Sky Sport 7 NZ",Sky Sport 7 NZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809373&extension=ts&play_token=AH9im06iLb|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
+http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:75:52:64&stream=809373&extension=ts&play_token=nk4ZQ5A3Zm|User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3
